@@ -26,7 +26,7 @@ func sendData(input string) string {
 }
 
 func main() {
-	r = sendData("test")
+	r := sendData("test")
 	fmt.Println(r)
 	defer c.Close()
 }
